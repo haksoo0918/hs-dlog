@@ -1,0 +1,46 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #7c2cdd;
+  --ifm-color-primary-dark: #6f21cd;
+  --ifm-color-primary-darker: #691fc2;
+  --ifm-color-primary-darkest: #561aa0;
+  --ifm-color-primary-light: #8a43e1;
+  --ifm-color-primary-lighter: #914ee3;
+  --ifm-color-primary-lightest: #a770e8;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* 글꼴 정리 */
+  --font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans,
+    sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+  --font-family-dodum: 'Gowun Dodum';
+  --font-family-batang: 'Gowun Batang';
+  --font-family-d2coding: 'D2Coding';
+
+  --ifm-font-family-base: var(--font-family-dodum), var(--font-family-base);
+  --ifm-font-family-monospace: var(--font-family-d2coding), var(--font-family-monospace);
+  --ifm-heading-font-family: var(--font-family-batang), var(--font-family-base);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #d2df72;
+  --ifm-color-primary-dark: #c9d957;
+  --ifm-color-primary-darker: #c5d649;
+  --ifm-color-primary-darkest: #afc02c;
+  --ifm-color-primary-light: #dbe58d;
+  --ifm-color-primary-lighter: #dfe89b;
+  --ifm-color-primary-lightest: #ecf2c4;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
