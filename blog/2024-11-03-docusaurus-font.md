@@ -1,6 +1,7 @@
 ---
 slug: docusaurus-font
 title: Docusaurus 글꼴 설정
+description: Docusaurus 글꼴 설정을 바꿔보았다.
 authors: haksoo
 tags: [docusaurus, font, family, gowun, d2coding]
 ---
@@ -8,6 +9,8 @@ tags: [docusaurus, font, family, gowun, d2coding]
 갑자기 글꼴이 바꾸고 싶어졌다. 이뿐걸로.
 
 그래서 찾아봤는데, 이게 젤 나은 방법인거 같아 이걸 선택했다.
+
+<!-- truncate -->
 
 우선 `style.css`에 있는 변수 설정되어 있는 부분에서 가져왔다.
 

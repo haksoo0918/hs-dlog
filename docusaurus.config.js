@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/hs-logo.svg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://hs-dlog.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -72,7 +72,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/hs-logo.svg',
       navbar: {
         title: 'HS dlog',
         logo: {
@@ -102,8 +102,8 @@ const config = {
         //     title: 'Docs',
         //     items: [
         //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
+        //         label: 'Components',
+        //         to: '/docs/',
         //       },
         //     ],
         //   },
@@ -133,7 +133,7 @@ const config = {
         //       },
         //       {
         //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
+        //         href: 'https://github.com/haksoo0918',
         //       },
         //     ],
         //   },
