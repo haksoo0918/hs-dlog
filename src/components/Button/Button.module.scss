@@ -1,0 +1,33 @@
+@use 'sass:color';
+
+.btn {
+  $font-color: #1c1e21 !default;
+  $bg-color: #e3e3e3 !default;
+  $amount: -15% !default;
+  [data-theme='dark'] & {
+    $font-color: #e3e3e3;
+    $bg-color: #1c1e21;
+    $amount: 10%;
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: $font-color;
+  border: 1px solid $font-color;
+  border-radius: 0.5rem;
+  background-color: $bg-color;
+  padding: 0.5rem 1rem;
+  transition: background-color ease 150ms;
+
+  &:hover {
+    background-color: color.adjust($bg-color, $lightness: $amount);
+  }
+
+  &.disabled,
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}

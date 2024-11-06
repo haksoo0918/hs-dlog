@@ -1,0 +1,25 @@
+.modal {
+  $text-color: #333;
+  $bg-color: #fff;
+
+  @at-root .backdrop {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+
+  .header {
+    min-height: 20rem;
+  }
+  .body {
+    padding: 0.5rem 1rem;
+  }
+  .footer {
+    display: flex;
+  }
+}
