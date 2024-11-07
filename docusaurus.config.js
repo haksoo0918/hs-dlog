@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'HS d-log',
+  title: 'HS d-log - 개발을 괴발개발',
   tagline: 'hs development log',
   favicon: 'img/hs-logo.svg',
 

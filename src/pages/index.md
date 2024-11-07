@@ -1,3 +1,8 @@
+---
+title: HS dlog
+description: 개발을 괴발개발
+---
+
 <img src="https://github.com/haksoo0918.png" class="rounded margin-bottom--md" alt="커피 마시는 제이크" width="160" height="160" />
 
 # HS dlog
@@ -13,3 +18,7 @@
 - 기억 수집
 - 노트
 - 잡담도...
+
+## 최근 올린 글
+
+- [svg 활용](/docs/React%20Components/svg)

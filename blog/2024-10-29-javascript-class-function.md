@@ -1,11 +1,12 @@
 ---
 slug: class-function
 title: JavaScript에서 클래스와 함수의 사용 구분
+description: JavaScript에서 클래스와 함수를 효과적으로 사용하는 방법에 대한 요약
 authors: haksoo
 tags: [javascript, class, function]
 ---
 
-JavaScript에서 클래스와 함수를 효과적으로 사용하는 방법에 대한 요약.
+> JavaScript에서 클래스와 함수를 효과적으로 사용하는 방법에 대한 요약.
 
 ## 클래스 사용이 효과적인 경우
 

@@ -1,7 +1,10 @@
+---
+title: Button
+description: 그냥 기본 버튼
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
-# Button
 
 > 그냥 기본 버튼
 

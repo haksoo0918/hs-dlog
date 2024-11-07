@@ -1,6 +1,7 @@
 ---
 slug: package-lock
 title: package-lock은 무얼하나
+description: package-lock에 대한 설명
 authors: haksoo
 tags: [node, package]
 ---
