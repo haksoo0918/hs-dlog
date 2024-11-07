@@ -21,4 +21,4 @@ description: 개발을 괴발개발
 
 ## 최근 올린 글
 
-- [svg 활용](/docs/React%20Components/svg)
+- [svg 활용](/docs/React-Components/svg)
