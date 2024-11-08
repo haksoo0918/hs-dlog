@@ -21,4 +21,5 @@ description: 개발을 괴발개발
 
 ## 최근 올린 글
 
+- [디바운싱(Debouncing)과 쓰로틀링(Throttling)](/blog/debouncing-throttling)
 - [svg 활용](/docs/React-Components/svg)

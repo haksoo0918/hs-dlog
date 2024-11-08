@@ -68,6 +68,7 @@ import TabItem from '@theme/TabItem';
   @apply flex items-center justify-center gap-2 rounded-lg border px-4 py-2 transition-color;
   color: $font-color;
   border-color: $font-color;
+  background-color: $bg-color;
 
   &:hover {
     background-color: color.adjust($bg-color, $lightness: $amount);
