@@ -93,14 +93,20 @@ const config = {
           { to: '/docs', label: 'Components' },
           { to: '/blog', label: 'Blog' },
           // {
-          //   href: 'https://github.com/facebook/docusaurus',
+          //   href: 'https://github.com/haksoo0918',
           //   label: 'GitHub',
           //   position: 'right',
           // },
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
+        links: [
+          {
+            label: '📧',
+            to: 'mailto:haksoo0918@gmail.com',
+          },
+        ],
         // links: [
         //   {
         //     title: 'Docs',
