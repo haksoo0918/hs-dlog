@@ -1,0 +1,43 @@
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes blur {
+  to {
+    backdrop-filter: blur(4px);
+  }
+}
+
+:root:has(:is(#loading)) {
+  overflow: hidden;
+  scrollbar-gutter: stable;
+}
+
+.loading {
+  position: fixed;
+  inset: 0;
+  z-index: 900;
+  display: flex;
+  gap: 0.5rem;
+  height: 100dvh;
+  width: 100dvw;
+  align-items: center;
+  justify-content: center;
+  animation: blur 1s linear forwards;
+  background-color: #3333;
+  backdrop-filter: blur(0);
+
+  &::after {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 4px solid var(--ifm-color-primary-lightest);
+    border-bottom-color: var(--ifm-color-primary-darkest);
+    border-radius: 50%;
+    animation: spin 1s ease infinite;
+    background-color: transparent;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.2);
+  }
+}
