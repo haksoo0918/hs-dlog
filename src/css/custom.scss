@@ -4,6 +4,7 @@
 @import url('https://cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css');
 
 /* You can override the default Infima variables here. */
+// ref: https://infima.dev/
 :root {
   --ifm-color-primary: #{$color-primary};
   --ifm-color-primary-dark: #{$color-primary-dark};
@@ -40,6 +41,31 @@
   --ifm-color-primary-lighter: #{$dark-color-primary-lighter};
   --ifm-color-primary-lightest: #{$dark-color-primary-lightest};
   --docusaurus-highlighted-code-line-bg: #{$dark-highlighted-code-line-bg};
+}
+
+// common component
+.example {
+  display: flex;
+  position: relative;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 2px solid var(--ifm-color-primary-dark);
+  border-radius: 0.5rem;
+
+  &::after {
+    content: 'example';
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--ifm-font-color-base-inverse);
+    border-bottom-left-radius: 0.5rem;
+    background-color: var(--ifm-color-primary-dark);
+    font-size: 0.875rem;
+    display: inline-block;
+    padding: 0 0.25rem;
+  }
 }
 
 // utiles
