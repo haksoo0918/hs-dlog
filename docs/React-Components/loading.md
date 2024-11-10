@@ -57,7 +57,7 @@ export default Loading;
 }
 
 /* highlight-start */
-:root:has(:is(#loading)) {
+:root:has(#loading) {
   overflow: hidden;
   scrollbar-gutter: stable;
 }

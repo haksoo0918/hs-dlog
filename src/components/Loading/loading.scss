@@ -9,7 +9,7 @@
   }
 }
 
-:root:has(:is(#loading)) {
+:root:has(#loading) {
   overflow: hidden;
   scrollbar-gutter: stable;
 }
