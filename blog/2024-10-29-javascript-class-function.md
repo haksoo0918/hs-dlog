@@ -52,7 +52,7 @@ tags: [javascript, class, function]
 
 ---
 
-Citations:
+참조:
 
 - https://hong42.tistory.com/74
 - https://devkingdom.tistory.com/335
