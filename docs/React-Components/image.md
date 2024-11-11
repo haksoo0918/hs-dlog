@@ -14,9 +14,10 @@ const handleError = (e) => {
 
 /**
  * 이미지 컴포넌트 - 이미지 에러 처리
- * @param {string} src : 이미지 주소
- * @param {string} alt : 이미지 대채 문구
- * @param {object} props : 나머지 속성들
+ * @param {object} props
+ * @param {string} props.src : 이미지 주소
+ * @param {string} props.alt : 이미지 대채 문구
+ * @param {...*} props.props : 나머지 속성들
  * @return {React.JSX}
  */
 function Img({ src = noImage, alt = '', ...props }) {
