@@ -8,6 +8,8 @@ tags: [typescript, javascript, compile]
 
 > TypeScript의 동작 원리를 간단히 요약
 
+<!-- truncate -->
+
 1. 코드 작성 - 개발자가 TypeScript로 코드를 작성한다. 이 코드는 JavaScript의 상위집합으로, 타입 정보와 추가 기능을 포함한다.
 2. 컴파일 과정 - TypeScript 컴파일러(tsc)가 실행되면 다음과 같은 과정으로 진행된다.
    a. 파싱: 소스 코드를 추상 구문 트리(AST)로 변환
