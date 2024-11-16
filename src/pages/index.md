@@ -24,6 +24,8 @@ import RandomJake from '../components/RandomJake';
 
 ## 최근 올린 글
 
+- [JavaScript와 TypeScript](/blog/javascript-typescript)
+- [타입스크립트 동작 방식](/blog/typescript-process)
 - [React의 useRef 쉽게 설명하기](/blog/useRef)
 - [Loading Component](/docs/React-Components/loading)
 - [디바운싱(Debouncing)과 쓰로틀링(Throttling)](/blog/debouncing-throttling)

@@ -12,9 +12,9 @@ tags: [typescript, javascript, compile]
 
 1. 코드 작성 - 개발자가 TypeScript로 코드를 작성한다. 이 코드는 JavaScript의 상위집합으로, 타입 정보와 추가 기능을 포함한다.
 2. 컴파일 과정 - TypeScript 컴파일러(tsc)가 실행되면 다음과 같은 과정으로 진행된다.
-   a. 파싱: 소스 코드를 추상 구문 트리(AST)로 변환
-   b. 타입 체킹: AST를 분석하여 타입 오류를 검사
-   c. 코드 생성: 타입 정보를 제거하고 JavaScript 코드로 변환
+   1. 파싱: 소스 코드를 추상 구문 트리(AST)로 변환
+   2. 타입 체킹: AST를 분석하여 타입 오류를 검사
+   3. 코드 생성: 타입 정보를 제거하고 JavaScript 코드로 변환
 3. 출력 - 컴파일 결과로 파일이 생성된다.
    - JavaScript 파일(.js)
    - 타입 정의 파일(.d.ts)
