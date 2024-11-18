@@ -93,6 +93,12 @@ const config = {
           { to: '/docs', label: 'Components' },
           { to: '/blog', label: 'Blog' },
           // {
+          //   to: '/scraps',
+          //   label: 'Scraps',
+          //   activeBaseRegex: '/pages/scraps/',
+          //   sidebarId: 'scrapSidebar',
+          // },
+          // {
           //   href: 'https://github.com/haksoo0918',
           //   label: 'GitHub',
           //   position: 'right',
