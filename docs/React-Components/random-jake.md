@@ -1,3 +1,19 @@
+---
+title: Random Jake
+description: Random으로 나오는 Jake이미지
+---
+
+import RandomJake from '../../src/components/RandomJake'
+
+맨 처음엔 그냥 제이크 이미지를 썸네일 처럼 사용했다가 나중에 랜덤으로 나왔으면 좋겠다는 생각이 들면서 만들게 되었다.
+
+로딩할때도 랜덤으로 나오고 클릭하면 그때도 랜덤으로 바뀌고... 별 다른 기능은 없다. ㅎㅎ;
+
+<div class="example">
+  <RandomJake />
+</div>
+
+```jsx title="RandomJake.jsx"
 import { useState } from 'react';
 import { getRandomInt } from '../../utils';
 //
@@ -36,3 +52,6 @@ function RandomJake({ className }) {
 }
 
 export default RandomJake;
+```
+
+이상이다.

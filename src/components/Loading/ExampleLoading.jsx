@@ -5,7 +5,7 @@ function ExampleLoading({ delay = 3000 }) {
   const [isVisible, setIsVisible] = useState(false);
 
   const onLoading = () => {
-    console.log('fn:toggleVisible');
+    // console.log('fn:toggleVisible');
     setIsVisible(true);
 
     setTimeout(() => {

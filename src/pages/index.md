@@ -5,7 +5,7 @@ description: 개발을 괴발개발
 
 import RandomJake from '../components/RandomJake';
 
-<RandomJake />
+<RandomJake className="margin-bottom--md" />
 
 # HS dlog
 
@@ -24,6 +24,7 @@ import RandomJake from '../components/RandomJake';
 
 ## 최근 올린 글
 
+- [Random Jake](/docs/React-Components/random-jake)
 - [JavaScript와 TypeScript](/blog/javascript-typescript)
 - [타입스크립트 동작 방식](/blog/typescript-process)
 - [React의 useRef 쉽게 설명하기](/blog/useRef)
