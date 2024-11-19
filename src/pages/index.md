@@ -24,6 +24,7 @@ import RandomJake from '../components/RandomJake';
 
 ## 최근 올린 글
 
+- [npm과 npx의 차이점](/blog/npm-npx)
 - [Random Jake](/docs/React-Components/random-jake)
 - [JavaScript와 TypeScript](/blog/javascript-typescript)
 - [타입스크립트 동작 방식](/blog/typescript-process)
@@ -31,3 +32,4 @@ import RandomJake from '../components/RandomJake';
 - [Loading Component](/docs/React-Components/loading)
 - [디바운싱(Debouncing)과 쓰로틀링(Throttling)](/blog/debouncing-throttling)
 - [svg 활용](/docs/React-Components/svg)
+- more...
