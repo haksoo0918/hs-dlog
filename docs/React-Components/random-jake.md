@@ -1,6 +1,7 @@
 ---
 title: Random Jake
 description: Random으로 나오는 Jake이미지
+tags: [jake, random]
 ---
 
 import RandomJake from '../../src/components/RandomJake'

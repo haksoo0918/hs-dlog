@@ -1,6 +1,7 @@
 ---
 title: Loading Component
 description: loading을 표현하는 컴포넌트
+tags: [react, loading, component]
 ---
 
 import ExampleLoading from '../../src/components/Loading/ExampleLoading';
