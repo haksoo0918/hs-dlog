@@ -1,11 +1,12 @@
 ---
 title: svg 활용
 description: svg를 리액트에서 효율적으로 사용하기
-tags: [react, next, svg, svgr]
+tags: [react, next, svg, svgr, svgo]
 ---
 
 > svg를 리액트에서 효율적으로 사용하기  
-> ➕ 추가 넥스트 & svgr 사용하기
+> \+ [추가 넥스트 & svgr 사용하기](#-추가-넥스트--svgr-패키지-사용하기)  
+> \+ [추가 svgo 설정 끄기](#여기에-또-내용-추가로-설정을-추가했다)
 
 대게는 그냥 이미지에 넣는게 기본적인 사용 방법이다.
 
@@ -147,7 +148,34 @@ module.exports = {
 };
 ```
 
-다음과 같이 사용할 수 있다.
+### 여기에 또 내용 추가로, 설정을 추가했다.
+
+svgr은 기본적으로 svgo를 활용해서 svg를 압축한다.  
+나는 vscode에서 svg확장을 활용해서 압축을 사용하고, 그 압축도 옵션이 포함된 압축이고, 압축 후에 필요한 내용을 추가하기도 한다.  
+svgr의 svgo은 옵션을 어떻게 넣어야 하는지 몰라서 그냥 꺼버렸다.  
+아시는 분은 알려주세요.  
+`@svgr/webpack` 을 로더로 지정하는 부분에 저렇게 적으면 된다.  
+끄는 옵션도 확인하는데 상당한 고생이 필요했다. 😿
+
+```js title="next.config.js"
+// ...
+{
+  test: /\.svg$/i,
+  // highlight-start
+  use: [
+    {
+      loader: '@svgr/webpack',
+      options: {
+        svgo: false,
+      },
+    },
+  ],
+  // highlight-end
+}
+//...
+```
+
+이렇게 고생하고 나면, 다음과 같이 사용할 수 있다.
 
 ```jsx
 // 컴포넌트로 사용하기
@@ -185,9 +213,9 @@ declare module '*.svg?url' {
 ## 이건 svg 파일 사용에 대한 팁인데,
 
 - 색상을 사용할땐 `currentColor`값을 활용하면 좋고,
-- `img`의 alt속성 대신은 아니지만 `title` 요소를 추가해 사용하면 웹접근성에 좋다.
-- svg 확장을 활용해 `minify`시키는 것도 고려해 볼 만 하다.
-  - `minify` 시킬때는 옵션을 잘 확인해야 한다. viewBox나 title등...
+- `img`의 `alt`속성 대신은 아니지만 `title` 요소를 추가해 사용하면 웹접근성에 좋다.
+- vscode에서 svg 확장을 활용해 `minify`시키는 것도 고려해 볼 만 하다.
+  - `minify` 시킬때는 옵션을 잘 확인해야 한다. `viewBox`나 `title`등...
 
 ---
 
