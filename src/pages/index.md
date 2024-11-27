@@ -25,6 +25,7 @@ import RandomJake from '../components/RandomJake';
 
 ## 최근 올린 글
 
+- [스타일 관련 거의 필수 패키지들](/blog/style-package)
 - [npm과 npx의 차이점](/blog/npm-npx)
 - [Random Jake](/docs/React-Components/random-jake)
 - [JavaScript와 TypeScript](/blog/javascript-typescript)
