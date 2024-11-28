@@ -67,6 +67,17 @@
     padding: 0 0.25rem;
   }
 }
+.ul-grid-wrap {
+  ul {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: $breakpoint-mobile) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
 
 // utiles
 .rounded {
