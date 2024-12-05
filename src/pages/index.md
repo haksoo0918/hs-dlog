@@ -25,6 +25,8 @@ import RandomJake from '../components/RandomJake';
 ## 최근 올린 글
 
 <div class="ul-grid-wrap">
+
+- [Image Component](/docs/React-Components/image)
 - [light-dark() 활용한 테마 적용](/blog/light-dark)
 - [스타일 관련 거의 필수 패키지들](/blog/style-package)
 - [npm과 npx의 차이점](/blog/npm-npx)
@@ -36,4 +38,5 @@ import RandomJake from '../components/RandomJake';
 - [디바운싱(Debouncing)과 쓰로틀링(Throttling)](/blog/debouncing-throttling)
 - [svg 활용](/docs/React-Components/svg)
 - more...
+
 </div>
