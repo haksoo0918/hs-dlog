@@ -1,0 +1,44 @@
+.dropdown {
+  --border-color: var(--ifm-color-primary-dark);
+  --border-radius: var(--ifm-button-border-radius);
+
+  position: relative;
+
+  .btn {
+    &:after {
+      content: '';
+      display: inline-block;
+      height: 0;
+      margin-left: 12px;
+      border-top: 6px solid var(--ifm-button-color);
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      vertical-align: middle;
+    }
+    &:focus + .more,
+    & + .more:focus-within {
+      opacity: 1;
+      grid-template-rows: 1fr;
+    }
+  }
+  .more {
+    position: absolute;
+    display: grid;
+    grid-template-rows: 0fr;
+    margin-top: 4px;
+    top: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    opacity: 0;
+    transition: opacity 0.3s, grid-template-rows 0.3s;
+
+    & > * {
+      overflow: hidden;
+    }
+
+    &.right {
+      left: auto;
+      right: 0;
+    }
+  }
+}
