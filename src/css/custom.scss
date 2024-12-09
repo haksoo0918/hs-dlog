@@ -46,6 +46,7 @@
 // common component
 .example {
   display: flex;
+  align-items: flex-start;
   position: relative;
   gap: 0.5rem;
   flex-wrap: wrap;
