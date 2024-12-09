@@ -1,6 +1,7 @@
 ---
 title: Loading Component
 description: loading을 표현하는 컴포넌트
+sidebar_label: Loading
 tags: [react, loading, component]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Image Component
 description: 대게 이미지가 깨질 수 도 있는 경우를 대비한 이미지 컴포넌트
+sidebar_label: Image
 tags: [react, next, image, component, error]
 ---
 
