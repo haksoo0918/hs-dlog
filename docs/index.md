@@ -9,6 +9,7 @@ sidebar_position: 1
 ## 넣은 것들
 
 - [Button](/docs/CSS-Components/button)
+- [Dropdown Component](/docs/React-Components/dropdown)
 - [Image Component](/docs/React-Components/image)
 - [Loading Component](/docs/React-Components/loading)
 - [Random Jake](/docs/React-Components/random-jake)
