@@ -62,7 +62,9 @@ interface Props extends ImageProps {
  * @param {Event} e - 실패 이벤트
  */
 const handleError = (e: React.SyntheticEvent<HTMLImageElement>) => {
-  e.currentTarget.src = NoImage.src;
+  const target = e.currentTarget;
+  target.srcset = '';
+  target.src = NoImage.src;
 };
 
 export default function Img({ useImg = false, src, alt = '', ...props }: Props) {
