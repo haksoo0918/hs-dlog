@@ -26,6 +26,7 @@ import RandomJake from '../components/RandomJake';
 
 <div class="ul-grid-wrap">
 
+- [넥스트 프로젝트에 metadata를 넣자. SEO를 위해서!](/blog/next-metadata)
 - ~~Dropdown Component~~ 빌드에서 문제 발생
 - [Image Component](/docs/React-Components/image)
 - [light-dark() 활용한 테마 적용](/blog/light-dark)
