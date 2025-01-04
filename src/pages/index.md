@@ -17,15 +17,14 @@ import RandomJake from '../components/RandomJake';
 
 ## 용도
 
-- 자료 수집
-- 기억 수집
-- 노트
+- 자료 수집, 기억 수집, 노트
 - 잡담도...
 
 ## 최근 올린 글
 
 <div class="ul-grid-wrap">
 
+- [모바일에서 키보드가 보일 때 뷰포트 크기 조정](/blog/mobile-viewport)
 - [넥스트 프로젝트에 metadata를 넣자. SEO를 위해서!](/blog/next-metadata)
 - ~~Dropdown Component~~ 빌드에서 문제 발생
 - [Image Component](/docs/React-Components/image)
